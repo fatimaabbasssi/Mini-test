@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav{
+    padding: 1em;
+}
+
+
+
+.nav-link{
+    color: white !important;
+}
+
+.inside1{
+    max-width: 400px;
+    margin-left: 3em;
+
+}
+
+.shop{
+    color: rgb(255, 225, 0);
+}
+
+.face{
+    height: 40px;
+    width: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+.mainfa{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+
+
+.btn1{
+    background-color: #EBC30A;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 1em;
+}
+
+
+.btn2{
+    background-color: black;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrot{
+    margin-bottom: 2em;
+}
+
+.flower{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.para2{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.para3{
+    margin-bottom: 2em;
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+
+}
+
+.card1{
+    height: 300px;
+    width: 180px;
+    border: 2px dashed rgb(93, 93, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dollor{
+    color: #f6d853;
+}
+
+.para4{
+    font-size: small;
+    text-align: center;
+}
+
+.btn3{
+    border-radius: 0px;
+}
+
+.tomato{
+    margin-top: 1em;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.ul{
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.btn5{
+    display: block;
+    background-color: #EBC30A;
+    margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:590px){
+
+.flower{
+    max-width: 200px;
+    height: 200px;
+}
+    
+.inside1{
+    margin-left: 1em;
+}
+
+.ul2{
+    margin-left: -2em;
+}
+
+}
